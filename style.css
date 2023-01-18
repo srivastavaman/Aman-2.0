@@ -35,14 +35,51 @@ margin: .5rem;
 
  /* container1 sectioon area  */
 
+ .link{
+  decoration: none;
+ }
  .container1{
   background-color: #84a4ef;
   display: flex;
-  padding: 15px 20px 15px 200px;
+  padding: 4% 10% 4% 10%;
+ }
+ .container{
+  display: flex;
+  padding-left: 10%;
+  display: flexbox;
  }
  .profile-image img{
   width: 50%;
   height: auto;
-  padding-right: 10%;
-  position: flex;
+  padding-right: 0%;
+  border-radius: 5%;
+  display: flex;
+  left: 10%;
  }
+ .text-section{
+  padding-left: -10%;
+  color: rgb(255, 255, 255);
+ }
+button{
+  background-color: #1e58e0;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 10%;
+  font-weight: 400;  
+  padding: .5rem;
+  border-radius: 10rem;
+}
+button:hover {
+ 
+ }
+  
+ .conatainer3{
+  padding: 10rem 20rem 10rem 20rem;
+ }
+ .container, h3, h6{
+  text-align: center;
+  padding: 5px 200px 10px 200px;
+ }
+  
+  
+ 
