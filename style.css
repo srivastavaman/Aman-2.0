@@ -1,7 +1,7 @@
 *{
-  margin: 0px;
-  padding: 0px;
-  
+    margin: 0px;
+    padding: 0px;
+    
 }
 
 
@@ -22,100 +22,256 @@ display: inline;
 margin: .5rem;
 }
 .nav-list a{
-color: white;
-font-size: 18px;
-text-decoration: none;
-}
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+ }
 
-.nav-list a:hover{
-color: white;
-font-size: 18px;
-display: inline-block;
-text-decoration: none; 
-font-weight: 400;
-text-decoration: underline; 
-}
+ .nav-list a:hover{
+  color: white;
+  font-size: 18px;
+  display: inline-block;
+  text-decoration: none; 
+  font-weight: 400;
+  text-decoration: underline; 
+ }
 
-/* container1 sectioon area  */
+ /* container1 sectioon area  */
 
-
-.container1{
-background-color: #84a4ef;
-display: flex;
-padding: 4% 10% 4% 10%;
-}
-.container{
-display: flex;
-padding-left: 10%;
-display: flexbox;
-}
-.profile-image img{
-width: 65%;
-height: auto;
-padding-right: 0%;
-border-radius: 5%;
-display: flex;
-left: 10%;
-}
-.text-section{
-padding-left: 0%;
-color: rgb(255, 255, 255);
-}
+ 
+ .container1{
+  background-color: #84a4ef;
+  display: flex;
+  padding: 4% 10% 4% 10%;
+ }
+ .container{
+  display: flex;
+  padding-left: 10%;
+  display: flexbox;
+ }
+ .profile-image img{
+  width: 65%;
+  height: auto;
+  padding-right: 0%;
+  border-radius: 5%;
+  display: flex;
+  left: 10%;
+ }
+ .text-section{
+  padding-left: 0%;
+  color: rgb(255, 255, 255);
+ }
 
 .desgin{
-color: #1e58e0;
-border-style: none;
-padding: 10px 20px 10px 20px;
-font-size: 17px;
-border-radius: 25rem;
-font-weight: 500;
-margin-top: 7px;
+  color: #1e58e0;
+  border-style: none;
+  padding: 10px 20px 10px 20px;
+  font-size: 17px;
+  border-radius: 25rem;
+  font-weight: 500;
+  margin-top: 7px;
 }
 
 .desgin:hover {
-background-color:#1e58e0 ;
-color: white;
-}
+ background-color:#1e58e0 ;
+ color: white;
+ }
 
-
-.conatainer3{
-padding: 10rem 20rem 10rem 20rem;
-}
-.container3 #skill-over, h6{
-text-align: center;
-padding: 5px 200px 10px 200px;
-}
+ 
+ .conatainer3{
+  padding: 10rem 20rem 10rem 20rem;
+ }
+ .container3 #skill-over, h6{
+  text-align: center;
+  padding: 5px 200px 10px 200px;
+ }
 /* Making card desine */
 .skill{
 padding: 10px 20px 10px 20px;
 }
 
-.container{
-background: #9eb8f6;
-border-radius: .2rem;
 
-}
 
 .card{
-height: 100%; 
-width:100%; 
-  margin: 2rem 2rem 2rem 2rem;
-  padding: 20px 10px 20px 10px;
-  position: center;
+  height: 100%; 
+  width:100%; 
+    margin: 2rem 2rem 2rem 2rem;
+    padding: 20px 10px 20px 10px;
+    position: center;
 
 }
 
 p{
-text-decoration: none;
-font-style: italic;
-
-
+  text-decoration: none;
+  font-style: italic;
+ 
+  
+}
+p::selection{
+  background-color: #1e58e0;
+  color: white;
 }
 
 .content{
-text-align: center;
-padding: 0rem 3rem 0rem 3rem;
+  text-align: center;
+  padding: 0rem 3rem 0rem 3rem;
+}
+
+  
+/* Making card desine */
+ #blogs{
+  text-align: center;
+  padding-top:.8rem ;
+ }
+
+ 
+
+
+/* Quotes Section  */
+
+
+.quotes{
+  background-image: url(back.jpg);
+  
+  
+}
+.quotes1-cell{
+ 
+  width: 88%;
+  height: 300px;
+  margin-right: 10px;
+  margin-left: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: white; 
+  border-radius: 1rem;
+  
 }
 
 
-/* Making card desine */
+.quotes1-cell::before
+{
+ 
+  text-align: center;
+  
+  line-height: 400px;
+  font-size: 80px;
+  color: black;
+}
+
+
+.position{
+  text-align: center;
+  padding: 40px 0px 40px 0px;
+  
+}
+
+
+/* Quotes section end here */
+
+/* Project start here */
+ .project-card{
+  display: flex;
+  flex-direction: row;
+  padding: 1rem 2rem 1rem 4.1rem;  
+  
+ }
+
+
+
+
+/* project section end here */
+
+
+
+
+/* bottom section start here */
+.bottom{
+  display: flex;
+  flex-direction: row;
+}
+.bottom-text{
+  padding: 1rem 2rem 1rem 2rem; 
+  color: white; 
+}
+
+.btom-li{
+  text-decoration: dotted;
+  text-align: left;
+  padding-left: 10px;
+  list-style-type: none;
+}
+
+.bottom-list a{
+  display: flex;
+  flex-direction: row;
+ padding-right:70px ;
+  text-decoration: none;
+  color: white;
+  text-align: left;
+  
+}
+.bottom-list a:hover{
+  color: white;
+}
+
+.list{
+  list-style-type: none;
+}
+
+
+/* Bottom section end here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer started here */
+
+.footer{
+  text-align: center;
+  background-color: #1e58e0;
+  
+
+}
+.copyright, .copy {
+  color: white;
+  font-size: medium;
+  text-decoration: none;
+  
+}
+
+.copy:hover{
+  color: white;
+}
+
+.py-2{
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+
+
+
+
+
+/* footer end here */
